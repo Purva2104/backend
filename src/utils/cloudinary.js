@@ -25,6 +25,6 @@ const uploadOnCloudinary = async (localFilePath) => {
 export {uploadOnCloudinary}
 
 
-cloudinary.v2.uploader.upload("",{public_id:"olympic_flag"},
-    function(error,result){console.log(result);}
-);
+// cloudinary.v2.uploader.upload("",{public_id:"olympic_flag"},
+//     function(error,result){console.log(result);}
+// );
