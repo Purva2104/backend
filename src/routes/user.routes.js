@@ -15,6 +15,10 @@ router.route("/register").post(
             maxCount: 1
         }
     ]),
+    // (req, res, next) => {
+    //     console.log("File received by multer:", req.files);
+    //     next();
+    // },
     registerUser)
 // router.route("/login").post(registerUser)
 export default router
